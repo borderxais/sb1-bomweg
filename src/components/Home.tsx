@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { BarChart3, Brain, Video, Target, Users, Bot, ClipboardList, Package, ArrowRight } from 'lucide-react';
+import { BarChart3, Pen, Video, Target, Users, Bot, ClipboardList, Package, ArrowRight } from 'lucide-react';
 
 export function Home() {
   return (
@@ -44,7 +44,6 @@ export function Home() {
 
       {/* Features Grid */}
       <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-16">
-        {/* Rest of the feature cards remain the same */}
         <Link
           to="/market-research"
           className="group relative overflow-hidden rounded-2xl"
@@ -79,7 +78,7 @@ export function Home() {
           />
           <div className="absolute bottom-0 p-6 w-full">
             <div className="flex items-center justify-between mb-2">
-              <Brain className="h-8 w-8 text-purple-400" />
+              <Pen className="h-8 w-8 text-purple-400" />
               <ArrowRight className="h-6 w-6 text-white opacity-0 group-hover:opacity-100 transform translate-x-3 group-hover:translate-x-0 transition-all" />
             </div>
             <h2 className="text-2xl font-semibold text-white mb-2">Strategy Creation</h2>
