@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Brain, BarChart3, Home, Video, Target, Users, Bot, ClipboardList, Package } from 'lucide-react';
+import { Brain, BarChart3, Home, Video, Target, Users, Bot, ClipboardList, Package, Pen } from 'lucide-react';
 
 export function Navbar() {
   const location = useLocation();
@@ -8,7 +8,7 @@ export function Navbar() {
   const navItems = [
     { path: '/', icon: Home, label: 'Home' },
     { path: '/market-research', icon: BarChart3, label: 'Market' },
-    { path: '/strategy', icon: Brain, label: 'Strategy' },
+    { path: '/strategy', icon: Pen, label: 'Strategy' },
     { path: '/content', icon: Video, label: 'Video' },
     { path: '/campaigns', icon: Target, label: 'Ads' },
     { path: '/creators', icon: Users, label: 'Creators' },
